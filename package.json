@@ -1,27 +1,26 @@
 {
-  "name": "swagger-express-mw",
+  "name": "swagger-express-mw-updated-packages",
   "version": "0.1.0",
-  "description": "Swagger loader and middleware for express",
+  "description": "Swagger loader and middleware for express. This is update of dependencies to fix security issues.",
   "keywords": [
     "swagger",
     "api",
     "apis",
     "connect"
   ],
-  "author": "Scott Ganyo <sganyo@apigee.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apigee-127/swagger-express.git"
+    "url": "https://github.com/vit100/swagger-express.git"
   },
   "dependencies": {
-    "swagger-node-runner": "^0.5.0"
+    "swagger-node-runner-updated-packages": "^0.5.13"
   },
   "devDependencies": {
-    "lodash": "^3.9.3",
+    "lodash": "^4.17.21",
     "mocha": "^2.2.1",
-    "should": "^5.2.0"
+    "should": "^13.2.3"
   },
   "scripts": {
     "test": "mocha -u exports -R spec test test/lib",
