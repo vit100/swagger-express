@@ -1,26 +1,25 @@
 {
-  "name": "swagger-express-mw",
+  "name": "swagger-express-mw-updated-dependencies",
   "version": "0.7.0",
-  "description": "Swagger loader and middleware for express",
+  "description": "Swagger loader and middleware for express with updated dependencies to fix high and critical vurnerabilities",
   "keywords": [
     "swagger",
     "api",
     "apis",
     "connect"
   ],
-  "author": "Scott Ganyo <sganyo@apigee.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apigee-127/swagger-express.git"
+    "url": "https://github.com/vit100/swagger-express"
   },
   "dependencies": {
-    "swagger-node-runner": "^0.7.0"
+    "swagger-node-runner-fork": "^0.8.0"
   },
   "devDependencies": {
-    "lodash": "^3.9.3",
-    "mocha": "^2.2.1",
+    "lodash": "^4.17.21",
+    "mocha": "^2.5.3",
     "should": "^5.2.0"
   },
   "scripts": {
